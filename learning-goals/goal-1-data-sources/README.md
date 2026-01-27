@@ -17,8 +17,8 @@
 For the beach pollution analysis project in Italy, we needed multiple data sources that could provide:
 - Geospatial information about beach locations
 - User-generated content about beach quality
-- Environmental indicators related to pollution
-- Temporal data to track changes over time
+- Environmental indicators related to pollution, WWF dataset only provides 6 major material categories and the number found in all beaches
+- Temporal data to track changes over time, WWF dataset was still incomplete, we only managed to capture few months of where data collection is visible
 
 Unlike previous courses where clean, pre-packaged datasets were provided, this project required independent research, evaluation, and acquisition of raw data sources.
 
@@ -30,25 +30,16 @@ Unlike previous courses where clean, pre-packaged datasets were provided, this p
 1. **Relevance:** Must relate to beach quality, pollution, or environmental conditions in Italy
 2. **Accessibility:** Must be obtainable through APIs, web scraping, or public datasets
 3. **Quality:** Must have sufficient coverage and reliability for analysis
-4. **Compatibility:** Must be integrable with geospatial analysis tools (Python, GeoPandas, etc.)
+4. **Compatibility:** Must be integrable with geospatial analysis tools (Python, GeoPandas, GeoDA, ArcGIS etc.)
 
 ### Data Sources Identified
 
 #### 1. Google Places API
 - **Purpose:** Extract beach ratings, review counts, and user-generated keywords
-- **Why Selected:** Real-time, crowdsourced data; good geographic coverage; accessible via API
+- **Why Selected:** Real-time, crowdsourced data; good geographic coverage; accessible via API, hidden as a secret
 - **Format:** JSON responses from API calls
 - **Limitations:** Rate limits; requires API key; may have bias toward tourist areas
 
-#### 2. [ADD YOUR OTHER DATA SOURCES]
-- **Purpose:** [What was this data for?]
-- **Why Selected:** [Why did you choose this source?]
-- **Format:** [CSV, GeoJSON, etc.]
-- **Limitations:** [What were the constraints?]
-
-#### 3. [ADD ANY ADDITIONAL SOURCES]
-
----
 
 ## 💾 Data Storage and Version Control
 
@@ -56,7 +47,7 @@ Unlike previous courses where clean, pre-packaged datasets were provided, this p
 - **Challenge:** Not all team members were familiar with Git version control
 - **Impact:** Limited systematic version control implementation
 - **Workaround:** Used Google Colab for collaborative notebook editing; manual file sharing
-- **Learning:** Recognized the importance of establishing common technical baselines before starting collaborative projects
+-
 
 ### Data Organization
 - Notebooks stored in shared repository structure
