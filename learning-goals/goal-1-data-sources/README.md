@@ -61,43 +61,29 @@ Unlike previous courses where clean, pre-packaged datasets were provided, this p
 ### Notebooks Related to This Goal
 - [`google_maps_reviews_words.ipynb`](../goal-2-web-scraping/google_maps_reviews_words.ipynb) - Google Places API data extraction
 - [`clean_coords.ipynb`](../goal-2-web-scraping/clean_coords.ipynb) - Coordinate data cleaning and validation
-- [ADD: Any other notebooks related to data acquisition]
-
-### Key Code Examples
-
-**Example: Data source evaluation decision-making**
-```python
-# Initially attempted TripAdvisor scraping
-# Pivoted to Google Places API due to:
-# 1. Better documentation
-# 2. More reliable data structure
-# 3. Easier authentication process
-```
-
-[ADD: Code snippets showing how you evaluated or accessed data sources]
+- rest of the dataset required manual viweing and editing before proceeding with pandas handling
 
 ---
 
-## 🎯 Results
-
 ### Data Sources Successfully Acquired
 ✅ Google Places API data for Italian beaches  
-✅ Beach coordinate datasets  
-✅ [ADD: Other successful data acquisitions]
+✅ Beach coordinate datasets (lat, lng) 
+✅ Final beaches_merged_v2 dataset
 
 ### Data Quality Assessment
-- **Coverage:** [How many beaches? Geographic spread?]
-- **Completeness:** [Missing data? Gaps?]
-- **Reliability:** [How did you assess data quality?]
+- **Coverage:** [128 beaches were correclty identified;  Geographic spread: Beaches and coasts in the whole extent of Italy
+- **Completeness:** [Missing data? Gaps?] ALthough not all beaches where found when searching through Google Maps. Due to diverse naming conventions I had to manually search and locate beaches based on 1) WWF naming 2) lat/lng of dataset. This resulted in some points being dropped or missing such as 1 point (beach) showing in Northern Tunisia.
+- **Reliability:** [How did you assess data quality?] Manual inspection of more than baeaches from the original dataset. These then were added and edited in the dataset where changes needed to be made.
 
 ---
 
 ## 📝 Conclusions
 
 ### On the Results
-- Successfully identified and acquired multiple relevant data sources for beach pollution analysis
-- Google Places API proved to be the most reliable source for user-generated content
-- [ADD: Other key findings about your data sources]
+- Successfully identified and acquired multiple relevant data sources(WWF, Google Maps)  for beach pollution analysis
+- Google Places API proved to be the most reliable source for user-generated content for more touristic beaches
+- Keywords extracted proved insufficient for the analysis, but a nice addition nontheless
+- TripAdvisor had to be workedaround
 
 ### On Goal Accomplishment
 **What worked well:**
@@ -106,12 +92,12 @@ Unlike previous courses where clean, pre-packaged datasets were provided, this p
 - Adapted when initial approaches (TripAdvisor) didn't work as expected
 
 **What could be improved:**
-- More systematic Git version control implementation (team skill gaps limited this)
+- More systematic Git version control implementation (team skill gaps limited this) for better file handling as Colab did not prove the best for simultaneous coding
 - Could have explored additional environmental datasets (e.g., satellite data, official pollution reports)
 - Better documentation of data source evaluation process from the beginning
 
 **Did I achieve my goal?**  
-**Partially achieved.** I successfully identified and acquired suitable data sources independently, and documented processing in notebooks with clear comments. However, the Git version control implementation was limited due to team constraints. Despite this, I learned valuable lessons about data source evaluation, API integration, and the importance of adaptability in data acquisition.
+**Partially achieved.** I successfully identified and acquired suitable data sources collaboratively, and documented processing in notebooks with clear comments. However, the Git version control implementation was limited due to team constraints. Despite this, I learned valuable lessons about data source evaluation, API integration, and the importance of adaptability in data acquisition and preprocessing framework.
 
 ---
 
@@ -121,4 +107,4 @@ Unlike previous courses where clean, pre-packaged datasets were provided, this p
 
 ---
 
-**Reflection:** This goal taught me that finding suitable data is often more challenging than analyzing it. The process of evaluating sources, understanding their limitations, and adapting when initial approaches fail is a critical skill in data science.
+**Reflection:** This goal taught me that finding suitable data is often more challenging than analyzing it. The process of evaluating sources, understanding their limitations, and adapting when initial approaches fail is a critical skill in data science. Despite all drawbacks being able to keep a clear head and working with whatever tool in hand is a critical skill that most people lack.
