@@ -31,14 +31,14 @@ This required developing workflows to extract, clean, and structure data from on
 **Objective:** Extract beach reviews, ratings, and user comments from TripAdvisor
 
 **Tools Used:**
-- Python libraries: BeautifulSoup, requests
-- [ADD: Other libraries you used]
-
+- Python libraries: serpapi-requests, requests
+- SerpAPI service: 500 searches for free credits
+- Google Places API: multiple paramaters for extracting words from Google Reviews
 **Outcome:** Code executed successfully but did not return the desired output
 
 **Challenges:**
-- [ADD: What specific issues did you encounter? Dynamic content? Anti-scraping measures?]
-- [ADD: Why didn't it return the expected output?]
+- TripAdvisor API: As this platform contains sensitive information such as usernames, emails, photos of users in places, I was introduced to the unfamiliar for me 'robots.txt'. This file contains all the actions that are and not allowed such as mass scraping. TripAdvisor opposed quite many ethical and legal implications that's why I tried to find another way for this to work. WIth the help of AI Claude's model SOnnet 4.5 i came accross 3rd party service SerpAPI. Although this resulted in poor search parameters where reviews could not be extracted
+- [Why didn't it return the expected output?]: Few available credits meant I couldn't run the script as many times it needed. In general TripAdvisor proved to be a poor choice for beach reviews, as it only showed places and businesses rather than attractions and natural features.
 
 **Learning:** Web scraping is highly dependent on website structure, which can change frequently. Anti-scraping measures and dynamic content loading can make extraction difficult.
 
