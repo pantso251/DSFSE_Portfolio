@@ -103,8 +103,8 @@ Unlike previous courses where clean, pre-packaged datasets were provided, this p
 
 ## 🔗 Related Goals
 - [Goal 2: Web Scraping and Cleaning](../goal-2-web-scraping/) - Implementation of data extraction workflows
-- [Goal 3: Visualization](../goal-3-visualization/) - Using acquired data for storytelling
+- [Goal 3: Visualization](../goal-3-visualization/) - Using acquired data for story map
 
 ---
 
-**Reflection:** This goal taught me that finding suitable data is often more challenging than analyzing it. The process of evaluating sources, understanding their limitations, and adapting when initial approaches fail is a critical skill in data science. Despite all drawbacks being able to keep a clear head and working with whatever tool in hand is a critical skill that most people lack.
+**Reflection:** This goal taught me that finding suitable data is often more challenging than analyzing it. The process of evaluating sources, understanding their limitations, and adapting when initial approaches fail is a critical skill in data science. Despite all drawbacks being able to keep a clear head and working with whatever tool in hand is a critical skill that quite many people lack.
