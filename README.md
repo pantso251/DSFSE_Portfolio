@@ -56,6 +56,8 @@ This portfolio documents my individual learning journey within a collaborative g
 ---
 
 ## Portfolio Structure
+**How to Navigate This Portfolio:**
+Start with [REFLECTION.md](REFLECTION.md) for an overview of my learning journey, then explore individual [learning goals](learning-goals/) for detailed documentation of each objective.
 
 Each learning goal has its own dedicated folder containing:
 - **Background** - Context and motivation
