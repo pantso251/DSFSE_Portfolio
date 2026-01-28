@@ -1,24 +1,18 @@
-# Projects
+# Project
 
 This directory contains course projects and major implementations.
 
-## Structure
+## Beach Pollution Analysis (Data Science for Smart Environments)
+**External Repository:** 
 
-Each project will have its own directory with complete documentation:
+https://github.com/dkarakost/Data_Science_For_Smart_Environment_Project
 
-```
-project01/
-├── README.md          # Project overview and setup
-├── requirements.txt   # Dependencies
-├── src/               # Source code
-├── data/              # Data files (if applicable)
-├── notebooks/         # Jupyter notebooks
-├── results/           # Results and outputs
-└── report/            # Final report/presentation
-```
+Analysis of Italian beach pollution patterns using crowdsourced data from Google reviews and geospatial visualization techniques. Project demonstrates data collection, preprocessing, spatial analysis, and policy-relevant visualization.
 
-## Project List
+**Key deliverables:**
+- Web scraping and data preprocessing pipeline
+- Geospatial hotspot analysis
+- Interactive story maps for policymakers
+- Statistical validation of pollution patterns
 
-- **Project 01:** [Description]
-- **Project 02:** [Description]
-- ...and so on
+
