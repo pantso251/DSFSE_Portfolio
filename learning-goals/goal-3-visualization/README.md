@@ -57,7 +57,7 @@ This required transforming raw data into compelling visual narratives using inte
   - Statistical calculations for density mapping
   - Data formatting for visualization tools
 
-**Note:** This notebook contains work that feeds into multiple downstream analyses, demonstrating a modular data pipeline approach.
+**Note:** This notebook contains work that feeds into other notebooks, demonstrating a modular data pipeline approach.
 
 ---
 
@@ -81,14 +81,6 @@ All visualizations are documented in the [`visual-results/`](visual-results/) fo
 ### Key Figures
 
 [ADD: Descriptions of your 2-3 key visualizations with findings and explanations for policymakers]
-
----
-
-## 📖 The Story: Beach Pollution in Italy
-
-### Main Narrative
-
-[ADD: A 2-3 paragraph story that weaves together your findings about Italian beach pollution patterns, spatial distributions, and what the data reveals about beach quality]
 
 ---
 
@@ -169,4 +161,4 @@ All visualizations are documented in the [`visual-results/`](visual-results/) fo
 
 ---
 
-**Reflection:** This goal connected technical skills with communication skills. Creating visualizations is only half the challenge—explaining them effectively to different audiences is equally important. The process taught me that good data science includes good storytelling.
+**Reflection:** This goal connected technical skills with communication skills. Creating visualizations is only half the challenge—explaining them effectively to different audiences is equally important. The process taught me that good data science includes proper storytelling.
