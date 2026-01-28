@@ -29,7 +29,7 @@ This map displays the spatial distribution of individual beach location accross 
 **Italian Beaches Heatmap v4 (it-beaches-heatmap-v4)**
 What this shows: 
 
-A density map visualizing the concenrtation of beaches with highest pollution count accross Italy. Warm colours(red/orange) indicate higher concentrations of beaches where aggregated materials in total where used as a weight field in layer creation. 
+A density map visualizing the concenrtation of beaches with highest pollution count accross Italy. Warm colours(red/orange) indicate higher concentrations of beaches where aggregated materials in total were used as a weight field in layer creation. 
 
     Key findings: 
     -Distinct pollution hotspots emerge in high-traffic tourist regions along the Adriatic coast and around major urban centers
@@ -77,7 +77,7 @@ This is the main visualization where it shows to the Italian policy makers where
 
 **Explanation for policymakers and non-technical audiences**:
 
-This is the detailed, close-up version of the pollution hotspot map, focusing on specific problem beaches within 2 kilometers of each other. While the 10km map showed regional problems, this map identifies exactly which beaches need immediate attention. The onion rings show precisely where more systematic cleaning could help avoid future pollution. This can be achieved by adding more trash-cans or by sending multiple cleaning crews throughout the summer high-season. If a town is shown in the hotspot zone it means where visitor are possibly complaining more about the beach than statistically expected. That is where an oppurtunity arises, by addressing these locations it is highly expectedto improve both environmental quality and tourism reputation.
+This is the detailed, close-up version of the pollution hotspot map, focusing on specific problem beaches within 2 kilometers of each other. While the 10km map showed regional problems, this map identifies exactly which beaches need immediate attention. The onion rings show precisely where more systematic cleaning efforts would help prevent future pollution. This can be achieved by adding more trash cans or by sending multiple cleaning crews throughout the summer high-season. If a town is shown in the hotspot zone it means where visitor are possibly complaining more about the beach than statistically expected. That is where an oppurtunity arises, by addressing these locations it is highly expected to improve both environmental quality and tourism reputation.
 
 ---
 
