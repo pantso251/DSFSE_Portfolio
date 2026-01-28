@@ -19,6 +19,7 @@ Our team consisted of three members with varying levels of technical experience 
 - Geospatial analysis workflows
 - API integration and data extraction
 - Git/GitHub collaboration
+- Arc Online maps and story map creation
 
 To ensure team success and knowledge sharing, I took on a mentoring role to help bridge these knowledge gaps.
 
@@ -36,21 +37,19 @@ To ensure team success and knowledge sharing, I took on a mentoring role to help
 ---
 
 ## 💻 Specific Mentoring Activities
+ Examples:
 
-[ADD: Describe 2-3 specific examples of how you mentored your teammate, what technical topics you helped with, and how you documented/explained concepts to make them accessible]
+During the first two weeks I dedicated more than 2 hrs split in half hour sessions to mentor my teammate. We started with basic pandas following through the course's tutorials and materials and then we followed with a short datacamp tutorial i had given access through the Geoscripting course. We then created a new ipynb where team mate could reproduce the basic initial cleaning of the dataset in their own free time. After that I showed them how to use .describe(), .info() functions of pandas with practical hands-on experience in our dataset. On their own they learned how and where to use .head() and .tail() which made me feel proud to engage with this mentoring activity. Also, basic geopandas functionality was shown but not thoroughly impemented within the project. 
+
+During the third and final week of the project due to time limitations I couldn't establish a mentoring session with my teammate, but I explained to them how we produce and understand a density map in Arc Online Map Viewer. To achieve this we first explored together as a whole team basic functionality of GeoDA software. I later then showed my teammember how to create a group in Arc Online, import and view our csv file as a layer. We created a density map together and then they made the same with different symbology or their own. As our team started producing correlation graphs, I showed how to do so with matplotlib in their own jupyter notebook. I also provided a brief explanation of basic folium interactive plotting which they found really interesting.
+
+ In general i am very happy with the progress they did throughout the project and feel very proud in my ability to break down complex issues into small-sized bites for better understanding. 
 
 ---
 
-## 🎯 Results
-
-### Teammate's Progress
-- **Initial skill level:** [Describe where they started]
-- **Skills developed:** [What they learned through your mentoring]
-- **Independence gained:** [What they could do independently by project end]
-
 ### Impact on Team
-- **Prevented bottlenecks:** Mentoring kept the team moving forward
-- **Knowledge distribution:** Spreading knowledge helped the team work more cohesively
+- **Prevented bottlenecks:** Mentoring kept the team moving forward even when things took an undesirable turn
+- **Knowledge distribution:** Spreading knowledge helped the team work more cohesively with proper task delegation
 - **Team morale:** Building teammate confidence improved collaboration
 
 ### Personal Growth
@@ -71,13 +70,15 @@ To ensure team success and knowledge sharing, I took on a mentoring role to help
 ### On Goal Accomplishment
 
 **What worked well:**
+
 ✅ Created reproducible, well-documented code that teammate could follow  
 ✅ Provided guidance when requested without taking over tasks  
 ✅ Built teammate's confidence through incremental learning  
 ✅ Team did not fall behind due to skill gaps  
 
 **What could be improved:**
-- Could have established more structured mentoring schedule
+Due to time limitations I was faced
+- Could have established more structured mentoring schedule if time allowed
 - Could have created more comprehensive documentation/tutorials
 - Could have checked for understanding more systematically
 
@@ -86,7 +87,7 @@ To ensure team success and knowledge sharing, I took on a mentoring role to help
 - Balancing own learning goals with teaching responsibilities
 
 **Did I achieve my goal?**  
-[ADD: Your reflection on whether you achieved this goal - did you successfully support your teammate? Did they understand and execute technical steps? Did the team workflow remain effective?]
+I can proudly say that i achieved my mentoring goal. Although they were more part to still be addressed we made significant improvement in understanding and wiritng basic Python code along with basic map creation and visualization
 
 ---
 
@@ -94,9 +95,8 @@ To ensure team success and knowledge sharing, I took on a mentoring role to help
 
 ### About Mentoring
 1. **Teaching deepens understanding** - Explaining concepts forced me to understand them more deeply
-2. **Documentation is teaching** - Clear comments serve as silent mentors
-3. **Patience matters** - Everyone learns at different paces
-4. **Questions reveal gaps** - Encouraging questions helps identify misunderstandings early
+2. **Patience matters** - Everyone learns at different paces
+3. **Questions reveal gaps** - Encouraging questions helps identify misunderstandings early
 
 ### About Collaboration
 1. **Diverse skill levels are normal** - Real-world teams always have knowledge gaps
@@ -116,4 +116,4 @@ To ensure team success and knowledge sharing, I took on a mentoring role to help
 
 ---
 
-**Reflection:** This goal reminded me that data science is not just about technical skills—it's also about collaboration, communication, and lifting others up. The best way to truly understand something is to teach it to someone else. This experience strengthened both my technical understanding and my soft skills, preparing me for collaborative work environments in my future career.
+**Reflection:** This goal reminded me that data science is not just about technical skills—it's also about collaboration, communication, and lifting others up. The best way to truly understand something is to teach it to someone else. Through this i got to sharpen my soft skills as well as techincal skills, preparing me for collaborative work environments and task in my future geospatial career.
