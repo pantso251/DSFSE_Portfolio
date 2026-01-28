@@ -143,7 +143,7 @@ beach_data = {
 
 | Beach Name | Rating | Reviews | Clean Mentions | Dirty Mentions | Plastic Mentions | Latitude | Longitude |
 |------------|--------|---------|----------------|----------------|------------------|----------|-----------|
-| Spiaggia di Mondello|   4.5   |       658      | 12 | 3 | 2 |     4     |       7        |
+| Spiaggia di Mondello|   4.5   |       658      | 12 | 3 | 2 |     43.9597 | 10.1708 |
 
 
 ---
