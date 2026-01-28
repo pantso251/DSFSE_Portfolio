@@ -33,7 +33,7 @@ This required developing workflows to extract, clean, and structure data from on
 **Tools Used:**
 - Python libraries: serpapi-requests, requests
 - SerpAPI service: 500 searches for free credits
-- Google Places API: multiple paramaters for extracting words from Google Reviews
+- Google Places API: multiple parameters for extracting words from Google Reviews
 **Outcome:** Code executed successfully but did not return the desired output
 
 **Challenges:**
@@ -143,7 +143,7 @@ beach_data = {
 
 | Beach Name | Rating | Reviews | Clean Mentions | Dirty Mentions | Plastic Mentions | Latitude | Longitude |
 |------------|--------|---------|----------------|----------------|------------------|----------|-----------|
-| [Example] | 4.5 | 658 | 12 | 3 | 2 |     4     |       7        |
+| Spiaggia di Mondello|   4.5   |       658      | 12 | 3 | 2 |     4     |       7        |
 
 
 ---
