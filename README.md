@@ -75,11 +75,9 @@ For a comprehensive reflection on my learning process, including Boundary Crossi
 ## Repository Navigation
 
 - 📁 [`learning-goals/`](learning-goals/) - Detailed documentation for each of the 4 SMART goals
-- 📁 [`assignments/`](assignments/) - Course assignments
-- 📁 [`notes/`](notes/) - Learning notes and documentation
-- 📁 [`projects/`](projects/) - Project-related materials
-- 📄 [LEARNING_LOG.md](LEARNING_LOG.md) - Ongoing learning log
-- 📄 [REFLECTION.md](REFLECTION.md) - Learning process reflection
+- 📁 [`notes/`](notes/) - Learning notes and documentation (not yet available)
+- 📁 [`projects/`](projects/) - Project-related materials (opens to different public repo of group project)
+- 📄 [REFLECTION.md](REFLECTION.md) - BCC, societal implications reflection and a final reflection of the course
 
 ---
 
