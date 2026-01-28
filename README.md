@@ -79,6 +79,7 @@ For a comprehensive reflection on my learning process, including Boundary Crossi
 - 📁 [`learning-goals/`](learning-goals/) - Detailed documentation for each of the 4 SMART goals
 - 📁 [`notes/`](notes/) - Learning notes and documentation (not yet available)
 - 📁 [`projects/`](projects/) - Project-related materials (opens to different public repo of group project)
+- 📁 [`weekly-reflections/`](weekly-reflections/) - Personal reflections from week 1 to 3
 - 📄 [REFLECTION.md](REFLECTION.md) - BCC, societal implications reflection and a final reflection of the course
 
 ---
