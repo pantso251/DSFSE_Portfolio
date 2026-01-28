@@ -71,8 +71,8 @@ Unlike previous courses where clean, pre-packaged datasets were provided, this p
 
 ### Data Quality Assessment
 - **Coverage:** [128 beaches were correclty identified;  Geographic spread: Beaches and coasts in the whole extent of Italy
-- **Completeness:** ALthough not all beaches where found when searching through Google Maps. Due to diverse naming conventions I had to manually search and locate beaches based on 1) WWF naming 2) lat/lng of dataset. This resulted in some points being dropped or missing such as 1 point (beach) showing in Northern Tunisia.
-- **Reliability:** Manual inspection of more than baeaches from the original dataset. These then were added and edited in the dataset where changes needed to be made.
+- **Completeness:** Although not all beaches were found when searching through Google Maps due to dataset name convention. Manual inspection of datasets revealed points needing correction or removal (e.g., one point in Northern Tunisia was dropped).
+- **Reliability:** Manual inspection of more than baeaches from the original dataset. Coordinates and locations were verified and edited where changes were needed.
 
 ---
 
